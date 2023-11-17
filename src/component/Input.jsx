@@ -6,7 +6,6 @@ export default function Input({ label, textarea, ...props }) {
       <label className="text-sm font-bold uppercase text-stone-500">
         {label}
       </label>
-      <input />
       {textarea ? (
         <textarea className={classes} {...props} />
       ) : (
@@ -15,3 +14,4 @@ export default function Input({ label, textarea, ...props }) {
     </p>
   );
 }
+
